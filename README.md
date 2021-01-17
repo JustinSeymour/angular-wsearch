@@ -1,27 +1,24 @@
 # Wsearch
+### Project from modern angular bootcamp 2020
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.26.
+## Notes
 
-## Development server
+- Angular escapes HTML to remove security concerns.
+- You should only ever display html that you have written
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+- This saves us from cross site scripting attacks. Or XSS attacks.
+- Attackers embeds javascript in html elements.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## RXjs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Functional reactive programming language
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Seperate library from Angular
+- Used extensively by Angular for managing data
+- We this instead of promises or async/await for handling async stuff
+- Not strictly required, we can use promises and async/await.
+- Rxjs makes building some kinds of features really really easy compared to writing normal code.
+- Hard. Probably the hardest thing the world of JS. period.
+- If you can get a good grasp of RXJS, all of angular is at your fingertips!
